@@ -73,6 +73,7 @@ font-size: 1.4em;
 .menu-icon{
  display: block;
  cursor: pointer;
+ padding: 0.5rem 1rem;
 }
  .navigation {
      width:100%;
