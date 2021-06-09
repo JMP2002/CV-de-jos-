@@ -10,6 +10,7 @@ h1 {
 }
 p {
    margin-bottom: 1.6em;
+   line-height: 1.5em;
 }
 .container{
    width: 85%;
