@@ -82,6 +82,9 @@ font-size: 1.4em;
    display: none;
   }
    .navigation ul.show {
+   display: none;
+  }
+   .navigation ul.show2 {
    display: block;
   }
     .navigation ul li {
