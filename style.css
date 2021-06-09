@@ -64,6 +64,9 @@ font-size: 1.4em;
 .main{
   padding-top:11rem;
 }
+.ul2{
+   line-height: 1.5em;
+}
 .footer{
    background: #f2f2f2;
    padding: 2rem 0;
