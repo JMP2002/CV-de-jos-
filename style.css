@@ -78,6 +78,7 @@ font-size: 1.4em;
 .menu-icon{
  display: block;
  cursor: pointer;
+ padding: 0.5rem 1rem;
 }
  .navigation {
      width:100%;
@@ -87,9 +88,6 @@ font-size: 1.4em;
    display: none;
   }
    .navigation ul.show {
-   display: none;
-  }
-   .navigation ul.show2 {
    display: block;
   }
     .navigation ul li {
@@ -101,7 +99,7 @@ font-size: 1.4em;
          transition: all 0.4s linear; 
          border-radius:5px;
       }
-           .navigation ul li a:hover {
+           .navigation ul li a: hover {
             background: #4a4a4a;
            }
 }
