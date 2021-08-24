@@ -1,17 +1,17 @@
-jQuery(´document´).ready(function($){
+jQuery('document').ready(function($){
  
- ver menuBtn = $( ´.menu-icon´),
-     menu = $(´.navigation ul´);
+ ver menuBtn = $( '.menu-icon'),
+     menu = $('.navigation ul');
 
   menuBtn.click(function(){
   
-    if( menu.hasclass(´show2´) ){
+    if( menu.hasclass('show2') ){
      
-       menu.removeclass(´show2´);
+       menu.removeclass('show2');
 
     } else{
     
-      menu.addclass(´show2´);
+      menu.addclass('show2');
     }
 
   });     
