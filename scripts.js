@@ -1,17 +1,17 @@
 jQuery('document').ready(function($){
  
- ver menuBtn = $( '.menu-icon'),
+ var menuBtn = $('.menu-icon'), 
      menu = $('.navigation ul');
 
   menuBtn.click(function(){
   
-    if( menu.hasclass('show2') ){
+    if( menu.hasClass('show') ){
      
-       menu.removeclass('show2');
+       menu.removeClass('show');
 
     } else{
     
-      menu.addclass('show2');
+      menu.addClass('show');
     }
 
   });     
